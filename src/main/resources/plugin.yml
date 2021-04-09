@@ -1,0 +1,6 @@
+name: BeheadTheDragonProduction
+version: ${project.version}
+main: me.advait.beheadthedragonproduction.DragonPlugin
+api-version: 1.16
+authors: [Advait]
+description: The production Behead The Dragon plugin for PteroMC.

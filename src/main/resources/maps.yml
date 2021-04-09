@@ -1,0 +1,30 @@
+choose-random-map: true
+
+# Make sure the lobby and game maps you put here have the exact same names as the worlds of those maps! (Case-sensitive!)
+# Remember to put the world folder(s) on the server with their appropriate names before starting a game!
+
+# If choose-random-map is false, the first map on this list will be chosen for the game!
+
+maps:
+  1: # Use numerical order when writing maps.
+    world-name: "End City" # The name of the world the players will be sent to (make sure this world has the same case-sensitive name as this line, and is in the correct directory).
+    display-name: "End City" # What the name of the map will appear as to players in game.
+    player-spawn-location: # Where the normal players will spawn.
+      x: 0
+      y: 0
+      z: 0
+    dragon-spawn-location: # Where the dragon rider(s) will spawn.
+      x: 0
+      y: 0
+      z: 0
+    buildable-corner-one: # The first buildable corner of the map.
+      x: 0
+      y: 0
+      z: 0
+    buildable-corner-two: # The second buildable corner of the map.
+      x: 0
+      y: 0
+      z: 0
+    # All of the blocks between these buildable corners will be where the players are forced to stay.
+    # Players can break and place blocks in this area.
+
